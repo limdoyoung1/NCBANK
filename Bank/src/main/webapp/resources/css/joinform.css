@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* join.css */
+.container {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 70%;
+	max-width: 1200px;
+	max-height: fit-content;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginform {
+	width: 450px;
+	margin: 40px auto;
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-primary {
+	color: rgb(83, 169, 255);
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.form-group .resident {
+	display: flex;
+}
+
+.form-control {
+	width: calc(100% - 22px);
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.input-group {
+	display: flex;
+}
+
+.input-group .form-control {
+	flex: 1;
+}
+
+.input-group-append {
+	margin-left: 10px;
+}
+
+.btn {
+	background-color: rgb(83, 169, 255);
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn-primary {
+	background-color: rgb(83, 169, 255);
+}
+
+.btn-primary:hover {
+	background-color: rgb(13, 71, 161);
+}
+
+.text-right {
+	text-align: right;
+}
+
+input::placeholder {
+	color: #999;
+}
+
+input[type="file"] {
+	padding: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+small.form-text.text-danger {
+	color: red;
+}
+
+.form-text.text-danger {
+	color: red;
+}

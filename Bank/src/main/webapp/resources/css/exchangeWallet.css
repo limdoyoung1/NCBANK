@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+/* body {
+    background-color: #e0e0e0; 더 진한 회색
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+
+.contentWarp{
+   font-family: Arial, Helvetica, sans-serif;
+   width: 70%;
+   max-width: 1400px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #ffffff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   padding: 20px;
+   box-sizing: border-box; /* 패딩 포함하여 전체 너비 계산 */
+}
+
+.ASKWallet {
+    /* display: flex;
+    height: 100vh; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.LP {
+    margin: 0;
+    display: flex;
+}
+
+/* .LPWrap {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    height: 100%;
+    border-right: 1px solid #dee2e6;
+    top: 0;
+    width: 200px;
+}
+
+.LPWrap h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.LPWrap ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.LPWrap ul li {
+    margin-bottom: 10px;
+}
+
+.LPWrap ul li a {
+    text-decoration: none;
+    color: rgb(83, 169, 255);
+    display: block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.LPWrap ul li a:hover {
+    background-color: #e9ecef;
+}
+
+.LPWrap .LPC01 {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+} */
+
+/* [메인 내용] 시작 */
+
+.main-content {
+    /* flex: 1; */
+	padding: 20px;
+    /* border: 1px solid #dee2e6; */
+    width:100%;
+}
+
+h1 {
+    color: rgb(83, 169, 255); 
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top:27px;
+}
+
+.withbuttonWallet{
+	width: 45%;
+	margin-top: 33px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+   /*  border: 1px solid #dddddd; */
+   
+    padding: 12px;
+    /* text-align: left; */
+    text-align:center;
+}
+
+th {
+	border-top: 1px solid black;
+	border-bottom: 0.1px solid #dddddd;
+    background-color: #efefef;
+   
+}
+td {
+    
+	border-bottom: 0.1px solid #dddddd;
+    
+}
+
+button {
+    background-color: rgb(83, 169, 255); 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.actions{
+	margin-top:20px;
+	display:flex;
+	justify-content: flex-end;
+	width: 100%;
+	
+}

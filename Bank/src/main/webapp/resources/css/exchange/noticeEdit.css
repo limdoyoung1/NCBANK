@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/*
+[ 레이아웃 > 박스모델 > 글자 > 배경 > 기타 ]
+display > overflow > float > position >
+
+width > height > margin > padding >
+
+color > font-style > font-weight > font-size >
+line-height > font-family > text-indent > text-align >
+
+background-color > background-image >
+background-position > background-size >
+background-repeat
+
+border > border-radius
+*/
+
+.contentBox {	
+    width: 80%;
+    height: 75%;
+    margin: 0;
+    padding: 20px;
+    
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.textArea {
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.listType01 {
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+.listType01 li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.listStyleNone {
+    list-style: none;
+}
+
+.contentArea {
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.form-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.form-table th, .form-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form-table th {
+    width: 20%;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+
+.form-table td {
+    width: 80%;
+}
+
+.inputType01 {
+    width: 50%;
+    height: 35px;
+    padding: 5px;
+
+    text-align: left;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bTag01 {
+    color: red;
+}
+
+.buttonArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnStyle01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: #4da3ff;
+    border: 1px solid #1e90ff;
+}
+
+.btnStyle01:hover {
+    background-color: #1e90ff;
+}
+
+.btnStyle02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    color: gray;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.btnStyle02:hover {
+    background-color: #f0f0f0;
+}
+
+.btnStyle03 {
+    padding: 5px 10px;
+    color: #000;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btnStyle03:hover {
+    background-color: lightgray;
+}

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+.LPWrap .LPC01 {
+	background-color: #fff;
+}
+
+.LPWrap {
+	z-index: 1;
+	
+    /* 애내가 아마 화면 스크롤 내릴시 따라오는거 */
+    position: sticky;
+    overflow-y: auto;
+    
+    top: 0;
+    width: 240px;
+    height: 100%;
+    padding: 20px;
+
+	text-align: center;
+	font-size: 16px;
+	color: #222222;
+	
+	background-color:#fdfdfd; /* 메뉴바 배경색 */
+	border-radius: 5px;
+}
+
+.LPC01 {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.subject {    
+    margin-bottom: 10px;
+    padding: 5px;
+
+    color: rgb(83, 169, 255);
+    font-size: 22px;
+	
+	border-bottom: 3px solid rgb(83, 169, 255);
+}
+
+.contour { /* 구분선 용 */
+	background-color: rgb(83, 169, 255);
+    border-bottom: 2px solid rgb(83, 169, 255);
+}
+
+.LPWrap ul {
+	list-style-type: none;
+	padding: 0;
+
+}
+
+.LPWrap ul li {
+    display: block;
+    padding: 8px 12px;
+	margin-bottom: 10px;
+	
+	font-size: 16px;
+	
+    border-radius: 5px;
+}
+.LPWrap ul li:hover {
+	background-color: rgb(83, 169, 255);
+    color: white; 
+    transition: background-color 0.3s;
+}
+.LPWrap ul li:hover  a { /* li가 hover 일때 a 도 같이 변동 */
+    color: white; 
+}
+
+.LPWrap ul li a {
+	text-decoration: none;
+	color: #222222;
+}
+
+
+

@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+body {
+    background-color: #FAFAFA;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+   font-family: Arial, Helvetica, sans-serif;
+   width: 72%;
+   max-width: 1400px;
+   min-height: 100%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #ffffff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   padding: 20px;
+   box-sizing: border-box; /* 패딩 포함하여 전체 너비 계산 */
+}
+
+.traveltitle {
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 32px;
+    margin: 40px 0 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.traveltitle hr {
+    border: 1px solid #007bff;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.contents {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box; /* 패딩 포함하여 전체 너비 계산 */
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.menu1-1 {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(83, 169, 255);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menu1 a:hover {
+    background-color: rgb(83, 169, 255);
+    color: white;
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menuhr hr {
+    border: 2px solid rgb(83, 169, 255);
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box; /* 패딩 포함하여 전체 너비 계산 */
+}
+
+.contents-1 {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* 패딩 포함하여 전체 너비 계산 */
+}
+
+.contents-1 h2, .contents-1 h3 {
+    color: #343a40;
+}
+
+.contents-1 p, .contents-1 ul, .contents-1 ol {
+    color: #495057;
+    line-height: 1.8;
+}
+
+.contents-1 ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.contents-1 ol {
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+.contents-1 li {
+    margin-bottom: 15px;
+}
+
+.contents-1 strong {
+    color: #007bff;
+}
+
+.contents-1 h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.contents-1 h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.video-container {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 720px;
+    height: 405px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-source {
+    text-align: center;
+    font-size: 14px;
+    color: #7a7d7d;
+    margin-top: 10px;
+}
+
+.video-source a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.video-source a:hover {
+    text-decoration: underline;
+}
+
+.btnArea {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.btn-action {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: rgb(83, 169, 255);
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-action:hover {
+     background-color: #0056b3;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .contents {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn-action {
+        width: 100%;
+    }
+}

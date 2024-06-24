@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+.container {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 70%;
+	max-width: 1400px;
+	max-height: fit-content;
+	margin: 0 auto;
+	display: flex;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	flex-flow: column;
+	align-items: center;
+}
+
+.row {
+	margin: 0;
+	display: flex;
+}
+
+.container-fluid {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.col-md-2 {
+	text-align: center;
+	background-color: #fdfdfd; /* 메뉴바 배경색 원래색 f8f9fa*/
+	padding: 20px;
+	height: 100%;
+	border-right: 1px solid #f2f2f2; /* 오른쪽 테두리 */
+	overflow-y: auto;
+	position: sticky;
+	top: 0;
+	width: 15%; /*col-md-2와 크기 일치 :  width: 16.66666667%*/
+}
+
+.container-fluid {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.col-md-2 ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.col-md-2 ul li {
+	margin-bottom: 15px;
+}
+
+.col-md-2 li a:hover {
+	background-color: rgb(83, 169, 255);
+	color: white;
+}
+
+.col-md-2 li a {
+	text-decoration: none;
+	color: #333;
+	padding: 8px 10px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 5px;
+	transition: background-color 0.2s;
+	list-style-type: none;
+}
+
+.col-md-2 {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	border-radius: 0px;
+	padding: 10px;
+	float: left;
+	margin: 20px;
+}
+
+.enquiryhr hr {
+	border: 2px solid rgb(83, 169, 255);
+}
+
+.enquiry {
+	text-align: center;
+	padding-top: 10px;
+	color: rgb(83, 169, 255);
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.col-md-10 {
+	padding: 20px;
+	background-color: #ffffff;
+	/* 	margin-left: 16.66666667%; */
+	width: 83.33333333%;
+}
+
+.col-md-10 thead tr {
+	border-bottom: rgb(83, 169, 255);
+}
+
+.col-md-10 h3 {
+	border: rgb(83, 169, 255);
+}
+
+.col-md-10 table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+.col-md-10 th, .col-md-10 td {
+	border: 1px solid #f2f2f2;
+	padding: 10px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.col-md-10 th {
+	background-color: #fff;
+	font-size: 14px;
+}
+
+.col-md-10 th h3 {
+	border-bottom: 2px solid rgb(83, 169, 255);
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+.col-md-10 .total {
+	font-weight: bold;
+	text-align: center;
+	padding-right: 20px;
+	background: #f2f2f2;
+}
+
+.total-balance {
+	background-color: #f2f2f2;
+}
+
+.col-md-10 button {
+	background-color: rgb(83, 169, 255);
+	color: #ffffff;
+	border: none;
+	padding: 8px 12px;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-right: 5px;
+	transition: background-color 0.3s;
+}
+
+.col-md-10 button.transfer-check-button {
+	background-color: rgb(210, 210, 210);
+	color: black;
+	font-weight: bold;
+}
+
+.col-md-10 button:hover {
+	background-color: #0056b3;
+}

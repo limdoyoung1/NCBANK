@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/*
+[ 레이아웃 > 박스모델 > 글자 > 배경 > 기타 ]
+display > overflow > float > position >
+
+width > height > margin > padding >
+
+color > font-style > font-weight > font-size >
+line-height > font-family > text-indent > text-align >
+
+background-color > background-image >
+background-position > background-size >
+background-repeat
+
+border > border-radius
+*/
+
+
+.contentBox {
+	width: 500px;
+    margin: 30px 0px 50px;
+    padding: 0px;
+
+	color: #333;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.top {
+    display: flex;
+
+    border-radius: 5px 5px 0px 0px;
+    background-color: gainsboro;
+}
+.subject {
+    margin-left: 10px;
+    color: #555555;
+}
+.inquiryDate {
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+.tableArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tType01 {
+    color: #444444;
+
+    border-collapse: separate;
+	border-spacing: 20px 10px; /* 여백 */
+}
+
+.tType01 th {
+    text-align: center;
+}
+
+.FlagImg {
+	width: 30px;
+	height: 30px;
+}
+
+.cRed {
+    color: red
+}
+
+.cBlue {
+    color: blue;
+}
+
+.tL {
+    text-align: left;
+}
+
+.tR {
+    text-align: right;
+}
+
+.tC {
+    text-align: center;
+}

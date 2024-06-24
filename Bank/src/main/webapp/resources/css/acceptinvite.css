@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+    body {
+      font-family: '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, Helvetica, AppleGothic, Sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+.container {
+    font-family: '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, Helvetica, AppleGothic, Sans-serif;
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    flex:1;
+}
+
+  .main {
+      max-width: 600px;
+
+      margin: 100px auto;
+      padding: 20px;
+      text-align: center;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin-top: 50px;
+      flex-grow: 1;
+      height: 200px;
+    }
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.btn-invite {
+    background-color: #ffeb00;
+    color: #3c1e1e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-invite:hover {
+    background-color: #ffd700;
+}
+
+.acceptBtn, .declineBtn {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.acceptBtn {
+    background: rgb(83, 169, 255);
+}
+
+.acceptBtn:hover {
+    background-color: #0056b3;
+}
+
+.declineBtn {
+    background: #555555;
+}
+
+.declineBtn:hover {
+    background-color: #777777;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f8f9fa;
+    flex-shrink: 0;
+}
+
+h2, p {
+    font-family: '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, Helvetica, AppleGothic, Sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 30px;
+}
+.blank{
+	height: 320px;
+}

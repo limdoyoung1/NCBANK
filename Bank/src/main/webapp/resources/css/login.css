@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* 로그인 폼 스타일링 */
+.container {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 70%;
+	max-width: 1400px;
+	max-height: fit-content;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginform {
+	width: 450px;
+	margin: 100px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2.text-primary {
+	text-align: center;
+	color: rgb(83, 169, 255);
+	margin-bottom: 20px;
+	font-size: 28px;
+}
+
+.alert {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.alert-danger {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+.alert-danger h3 {
+	margin-top: 0;
+	color: #a94442;
+}
+
+.alert-danger p {
+	margin: 0;
+	color: #a94442;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.form-control {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+.form-group.text-bottom {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.btn-findid, .btn-findpwd {
+	display: inline-block;
+	margin: 5px 10px;
+	text-decoration: underline;
+	color: rgb(83, 169, 255);
+	font-size: 14px;
+}
+
+.btn-findid:hover {
+	color: rgb(13, 71, 161);
+	text-decoration: none;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.btn-findpwd:hover {
+	color: rgb(13, 71, 161);
+	text-decoration: none;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.form-group.text-right {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.btn-primary, .btn-danger {
+	display: block;
+	width: 100%;
+	/* width: calc(50% - 5px); 버튼의 너비와 동일하게 설정 */
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.btn-primary {
+	background-color: rgb(83, 169, 255); /* 로그인 버튼 배경색을 이미지와 동일하게 설정 */
+	margin-right: 5px;
+}
+
+.btn-primary:hover {
+	background-color: rgb(13, 71, 161);
+}
+
+.btn-danger {
+	background-color: #ff4d4d; /* 회원가입 버튼 배경색을 설정 */
+}
+
+.btn-danger:hover {
+	background-color: rgb(176, 58, 46);
+}
+
+form:errors {
+	color: red;
+	font-size: 12px;
+}
